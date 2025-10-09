@@ -1,4 +1,4 @@
-export class student{
+export class Student{
     private sName:string;
     private sAge:number;
     private sDistrict:string;
