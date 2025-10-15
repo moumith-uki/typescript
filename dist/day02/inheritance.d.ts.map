@@ -1,0 +1,1 @@
+{"version":3,"file":"inheritance.d.ts","sourceRoot":"","sources":["../../src/day02/inheritance.ts"],"names":[],"mappings":"AAAA,qBAAa,eAAe;IACxB,KAAK,EAAG,MAAM,CAAC;IACf,MAAM,EAAG,OAAO,CAAC;IACjB,WAAW,EAAE,IAAI,CAAA;gBAEL,KAAK,EAAC,MAAM,EAAC,MAAM,EAAC,OAAO,EAAC,WAAW,EAAC,IAAI;CAK3D"}

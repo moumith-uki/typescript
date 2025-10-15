@@ -1,0 +1,1 @@
+{"version":3,"file":"bank.js","sourceRoot":"","sources":["../../../src/day02/polymorphism/bank.ts"],"names":[],"mappings":";;;AAAA,MAAa,IAAI;IACZ,OAAO,GAAQ,MAAM,CAAC;IAEhB,QAAQ,CAAC,OAAc;QAC1B,OAAO,IAAI,CAAC,OAAO,GAAC,KAAK,CAAA;IAC7B,CAAC;CACJ;AAND,oBAMC"}

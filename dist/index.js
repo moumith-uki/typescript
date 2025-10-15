@@ -1,25 +1,25 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const student_1 = require("./day01/student");
+const Boy_1 = require("./day02/polymorphism/Boy");
+const bank_1 = require("./day02/polymorphism/bank");
+const BOC_1 = require("./day02/polymorphism/BOC");
+const People_s_1 = require("./day02/polymorphism/People's");
+const HNB_1 = require("./day02/polymorphism/HNB");
 function main() {
-    const student1 = new student_1.Student("Dexter samuel", 14, "Eravur");
-    console.log(student1.getStudentName());
-    const student2 = new student_1.Student("Raajavel.ms", 17, "Mamsapuram");
-    console.log(student2.getStudentDistrict());
-    console.log(student1.getStudentDistrict() + " is " + student1.getStudentName() + "'s native");
-    console.log(student2.getStudentName() + " is from " + student2.getStudentDistrict());
-    console.log(student1.getStudentAge());
-    student1.setStudentName("Mallesh kannan");
-    console.log(student1.getStudentDistrict() + " is " + student1.getStudentName() + "'s native");
+    const obj = new Boy_1.Boy();
+    obj.eat();
 }
 main();
-const circle_1 = require("./day01/circle");
 function main2() {
-    const circle1 = new circle_1.Circle(35);
-    console.log(circle1.getArea());
-    console.log(circle1.getPerimeter());
-    const circle2 = new circle_1.Circle(14);
-    console.log(circle2.getPerimeter());
+    const bankObj = new bank_1.Bank();
+    const bocObj = new BOC_1.BOC();
+    const hnbObj = new HNB_1.HNB();
+    const peoplesObj = new People_s_1.Peoples();
+    console.log("How much I'll get If I deposit " + bankObj.deposit + " in each bank.");
+    console.log("I will get " + bankObj.interest() + " in general");
+    console.log("I will get " + bocObj.interest() + " in BOC");
+    console.log("I will get " + hnbObj.interest() + " in HNB");
+    console.log("I will get " + peoplesObj.interest() + " in People's bank");
 }
 main2();
 //# sourceMappingURL=index.js.map
